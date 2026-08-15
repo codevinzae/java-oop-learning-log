@@ -10,7 +10,7 @@ Personal learning journal documenting my progress through the **University of He
 
 | Part | Topic                                   | Status | Notes |
 |------|------------------------------------------|--------|-------|
-| 1    | Intro to programming, variables, tools   | 🟨 Not started | |
+| 1    | Intro to programming, variables, tools   | 🟨 In Progress | |
 | 2    | Loops & repetition                       | ⬜ Not started | |
 | 3    | Lists, arrays, strings                   | ⬜ Not started | |
 | 4    | **Objects & classes (intro to OOP)**     | ⬜ Not started | |
