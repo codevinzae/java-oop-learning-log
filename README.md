@@ -1,2 +1,129 @@
-# java-oop-learning-log
-Personal learning log for Java OOP, following University of Helsinki's Java Programming MOOC. Built to reinforce my school's OOP coursework.
+# 📘 Java OOP Learning Log — University of Helsinki MOOC
+
+Personal learning journal documenting my progress through the **University of Helsinki's Java Programming MOOC (Object-Oriented Programming with Java)**, built to reinforce my school's OOP subject.
+
+> 🎯 **Goal:** Build a genuinely solid foundation in Object-Oriented Programming — not just pass the course, but be able to *design* with classes, not just write syntax.
+
+---
+
+## 📊 Progress Tracker
+
+| Part | Topic                                   | Status | Notes |
+|------|------------------------------------------|--------|-------|
+| 1    | Intro to programming, variables, tools   | ⬜ Not started | |
+| 2    | Loops & repetition                       | ⬜ Not started | |
+| 3    | Lists, arrays, strings                   | ⬜ Not started | |
+| 4    | **Objects & classes (intro to OOP)**     | ⬜ Not started | |
+| 5    | **Object-oriented programming continues**| ⬜ Not started | |
+| 6    | **References, object comparison**        | ⬜ Not started | |
+| 7    | **Inheritance**                          | ⬜ Not started | |
+| 8    | **Interfaces**                           | ⬜ Not started | |
+| 9    | Collections (ArrayList, HashMap, etc.)   | ⬜ Not started | |
+| 10   | **Abstract classes, static, packages**   | ⬜ Not started | |
+| 11   | Advanced collections & recursion         | ⬜ Not started | |
+| 12   | GUI basics (optional, low priority)      | ⬜ Not started | |
+| 13   | File handling                            | ⬜ Not started | |
+| 14   | Final project                            | ⬜ Not started | |
+
+**Legend:** ⬜ Not started · 🟨 In progress · ✅ Done · 🔁 Needs review
+
+> Bolded rows are the parts most directly tested in my school's OOP subject — prioritize these if time is short.
+
+---
+
+## 🗂️ Repo Structure
+
+```
+java-oop-log/
+├── README.md                 <- you are here
+├── notes/
+│   ├── 04-classes-objects.md
+│   ├── 05-oop-continued.md
+│   ├── 06-references.md
+│   ├── 07-inheritance.md
+│   ├── 08-interfaces.md
+│   └── 10-abstract-static.md
+├── exercises/
+│   ├── part04/
+│   ├── part05/
+│   └── ...
+└── mini-projects/
+    ├── library-system/
+    └── bank-account-sim/
+```
+
+- **notes/** — one markdown file per part, summarizing concepts in my own words
+- **exercises/** — my actual solved MOOC exercises, kept for reference (not for copying — solve first, save after)
+- **mini-projects/** — small self-directed builds that combine several concepts (see [Concept → Project Map](#-concept--project-map))
+
+---
+
+## 🧠 Concept → Project Map
+
+Mapping each core OOP concept to a small project idea, so I'm applying — not just reading.
+
+| Concept                     | Practice Project Idea                         |
+|------------------------------|------------------------------------------------|
+| Classes, objects, constructors | Simple `Student` class with grades          |
+| Encapsulation (getters/setters)| `BankAccount` with private balance          |
+| Inheritance                  | `Animal → Dog/Cat` or `Employee → Manager`    |
+| Polymorphism                 | `Shape` array calling `.area()` per subclass  |
+| Interfaces                   | `Payable` interface across unrelated classes  |
+| Abstract classes             | Abstract `Shape`, forcing subclasses to implement `area()` |
+| Collections + OOP combined   | To-do list app using `ArrayList<Task>`        |
+
+---
+
+## ✍️ Weekly Reflection Log
+
+Short, honest notes — what clicked, what didn't, what to revisit.
+
+### Week 1 — [date]
+- **Covered:**
+- **Understood well:**
+- **Still confusing:**
+- **Next step:**
+
+### Week 2 — [date]
+- **Covered:**
+- **Understood well:**
+- **Still confusing:**
+- **Next step:**
+
+> Tip: fill this in at the END of each study session, not before — 5 honest minutes here saves hours of re-learning later.
+
+---
+
+## 🔑 Key Terms I Keep Forgetting
+
+A running glossary — add to this the moment something confuses you twice.
+
+| Term | My own explanation |
+|------|----------------------|
+| `this` | |
+| `super` | |
+| Overloading vs Overriding | |
+| Abstract class vs Interface | |
+
+---
+
+## 🔗 Resources
+
+- [Java Programming MOOC — official site](https://java-programming.mooc.fi/)
+- [My own Java OOP Cheat Sheet](#) — link your Java_Cheat_Sheet.docx here once uploaded to the repo
+- School OOP syllabus/slides — link here
+
+---
+
+## 📌 How I'm Using This Repo
+
+1. Study a MOOC part
+2. Summarize it in my own words in `notes/`
+3. Solve the exercises in `exercises/`
+4. Once a concept feels shaky, build a tiny project for it in `mini-projects/`
+5. Update the Progress Tracker + Reflection Log
+6. Commit with a clear message, e.g. `git commit -m "Complete Part 7: Inheritance notes + exercises"`
+
+---
+
+*This log is a living document — updated as I go, not written once and forgotten.*
