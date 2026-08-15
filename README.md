@@ -43,7 +43,7 @@ java-oop-log/
 │   ├── 07-inheritance.md
 │   ├── 08-interfaces.md
 │   └── 10-abstract-static.md
-├── exercises/
+├── tmcdata/                  <- exercises
 │   ├── part04/
 │   ├── part05/
 │   └── ...
