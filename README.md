@@ -1,12 +1,12 @@
-# 📘 Java OOP Learning Log — University of Helsinki MOOC
+# Java OOP Learning Log — University of Helsinki MOOC
 
 Personal learning journal documenting my progress through the **University of Helsinki's Java Programming MOOC (Object-Oriented Programming with Java)**, built to reinforce my school's OOP subject.
 
-> 🎯 **Goal:** Build a genuinely solid foundation in Object-Oriented Programming — not just pass the course, but be able to *design* with classes, not just write syntax.
+> **Goal:** Build a genuinely solid foundation in Object-Oriented Programming — not just pass the course, but be able to *design* with classes, not just write syntax.
 
 ---
 
-## 📊 Progress Tracker
+## Progress Tracker
 
 | Part | Topic                                   | Status | Notes |
 |------|------------------------------------------|--------|-------|
@@ -31,7 +31,7 @@ Personal learning journal documenting my progress through the **University of He
 
 ---
 
-## 🗂️ Repo Structure
+## Repo Structure
 
 ```
 java-oop-log/
@@ -58,7 +58,7 @@ java-oop-log/
 
 ---
 
-## 🧠 Concept → Project Map
+## Concept → Project Map
 
 Mapping each core OOP concept to a small project idea, so I'm applying — not just reading.
 
@@ -74,7 +74,7 @@ Mapping each core OOP concept to a small project idea, so I'm applying — not j
 
 ---
 
-## ✍️ Weekly Reflection Log
+## Weekly Reflection Log
 
 Short, honest notes — what clicked, what didn't, what to revisit.
 
@@ -94,7 +94,7 @@ Short, honest notes — what clicked, what didn't, what to revisit.
 
 ---
 
-## 🔑 Key Terms I Keep Forgetting
+## Key Terms I Keep Forgetting
 
 A running glossary — add to this the moment something confuses you twice.
 
@@ -107,7 +107,7 @@ A running glossary — add to this the moment something confuses you twice.
 
 ---
 
-## 🔗 Resources
+## Resources
 
 - [Java Programming MOOC — official site](https://java-programming.mooc.fi/)
 - [My own Java OOP Cheat Sheet](#) — link your Java_Cheat_Sheet.docx here once uploaded to the repo
@@ -115,7 +115,7 @@ A running glossary — add to this the moment something confuses you twice.
 
 ---
 
-## 📌 How I'm Using This Repo
+## How I'm Using This Repo
 
 1. Study a MOOC part
 2. Summarize it in my own words in `notes/`
