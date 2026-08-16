@@ -27,4 +27,4 @@ replay_pid*
 **/*.class
 **/*.lst
 **/course_config.toml
-**/.tmcproject.json
+**/.tmcproject.json2

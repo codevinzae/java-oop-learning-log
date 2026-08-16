@@ -44,4 +44,28 @@ public class Program {
     }
 }
 ```
+>Variable naming is limited by certain constraints.
+>Note! The first letter of a variable name is always lower-cased (camelCase)
+
+### Converting Strings to Primitive Data Types (`.valueOf`)
+
+When reading input using `scanner.nextLine()`, the output is always received as a `String`. To perform mathematical or logical operations, we use wrapper class `.valueOf()` methods to convert text into usable data types:
+
+| Data Type | Conversion Command | Example Input | Output Type |
+| :--- | :--- | :--- | :--- |
+| **Integer** | `Integer.valueOf(string)` | `"123"` | `int` / `Integer` |
+| **Double** | `Double.valueOf(string)` | `"45.67"` | `double` / `Double` |
+| **Boolean** | `Boolean.valueOf(string)` | `"true"` | `boolean` / `Boolean` |
+
+#### Code Example:
+```java
+// Reading user input safely as a String and converting types
+String intText = "100";
+String doubleText = "99.99";
+String boolText = "true";
+
+int number = Integer.valueOf(intText);
+double price = Double.valueOf(doubleText);
+boolean isActive = Boolean.valueOf(boolText);
+
 
