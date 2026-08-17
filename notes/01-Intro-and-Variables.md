@@ -53,9 +53,9 @@ When reading input using `scanner.nextLine()`, the output is always received as 
 
 | Data Type | Conversion Command | Example Input | Output Type |
 | :--- | :--- | :--- | :--- |
-| **Integer** | `Integer.valueOf(string)` | `"123"` | `int` / `Integer` |
-| **Double** | `Double.valueOf(string)` | `"45.67"` | `double` / `Double` |
-| **Boolean** | `Boolean.valueOf(string)` | `"true"` | `boolean` / `Boolean` |
+| **Integer** | `Integer.valueOf(scanner.nextLine())` | `"123"` | `int` / `Integer` |
+| **Double** | `Double.valueOf(scanner.nextLine())` | `"45.67"` | `double` / `Double` |
+| **Boolean** | `Boolean.valueOf(scanner.nextLine())` | `"true"` | `boolean` / `Boolean` |
 
 #### Code Example:
 ```java
@@ -67,5 +67,7 @@ String boolText = "true";
 int number = Integer.valueOf(intText);
 double price = Double.valueOf(doubleText);
 boolean isActive = Boolean.valueOf(boolText);
-
+``` 
+## CALCULATING THE AVERAGE
+>
 
