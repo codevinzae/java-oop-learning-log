@@ -121,4 +121,36 @@ if (second.equals("two strings")) {
 }
 ```
 
+# How to Solve Any Tax Problem in Java
 
+Every tax programming problem follows one of two patterns: **Flat Tax** or **Bracket (Progressive) Tax**.
+
+---
+
+## 1. Universal Bracket Tax Formula
+
+For progressive tax brackets, tax is **ONLY** applied to the excess amount in that tier:
+
+$$\text{Total Tax} = \text{Base Tax} + \left( (\text{Amount} - \text{Bracket Threshold}) \times \text{Tax Rate} \right)$$
+
+---
+
+## 2. Standard Code Template
+
+Use this structure whenever you see bracketed tax conditions:
+
+```java
+double tax = 0;
+
+if (value < 5000) {
+    tax = 0; // Below minimum threshold
+} else if (value <= 25000) {
+    // Bracket 1: Base tax + excess over 5,000 * rate
+    tax = 100 + (value - 5000) * 0.08;
+} else if (value <= 55000) {
+    // Bracket 2: Base tax + excess over 25,000 * rate
+    tax = 1700 + (value - 25000) * 0.10;
+} else {
+    // Top Bracket: Base tax + excess over 55,000 * rate
+    tax = 4700 + (value - 55000) * 0.12;
+}
