@@ -10,8 +10,8 @@ Personal learning journal documenting my progress through the **University of He
 
 | Part | Topic                                   | Status | Notes |
 |------|------------------------------------------|--------|-------|
-| 1    | Intro to programming, variables, tools   | 🟨 In Progress | |
-| 2    | Loops & repetition                       | ⬜ Not started | |
+| 1    | Intro to programming, variables, tools   | ✅ In Progress | |
+| 2    | Loops & repetition                       | 🟨 Not started | |
 | 3    | Lists, arrays, strings                   | ⬜ Not started | |
 | 4    | **Objects & classes (intro to OOP)**     | ⬜ Not started | |
 | 5    | **Object-oriented programming continues**| ⬜ Not started | |
@@ -53,7 +53,7 @@ java-oop-log/
 ```
 
 - **notes/** — one markdown file per part, summarizing concepts in my own words
-- **exercises/** — my actual solved MOOC exercises, kept for reference (not for copying — solve first, save after)
+- **exercises/tmcdata/** — my actual solved MOOC exercises, kept for reference (not for copying — solve first, save after)
 - **mini-projects/** — small self-directed builds that combine several concepts (see [Concept → Project Map](#-concept--project-map))
 
 ---
@@ -119,7 +119,7 @@ A running glossary — add to this the moment something confuses you twice.
 
 1. Study a MOOC part
 2. Summarize it in my own words in `notes/`
-3. Solve the exercises in `exercises/`
+3. Solve the exercises in `exercises/tmcdaata/`
 4. Once a concept feels shaky, build a tiny project for it in `mini-projects/`
 5. Update the Progress Tracker + Reflection Log
 6. Commit with a clear message, e.g. `git commit -m "Complete Part 7: Inheritance notes + exercises"`
