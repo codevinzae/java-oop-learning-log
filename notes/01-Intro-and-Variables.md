@@ -69,5 +69,9 @@ double price = Double.valueOf(doubleText);
 boolean isActive = Boolean.valueOf(boolText);
 ``` 
 ## CALCULATING THE AVERAGE
->
+>In the next exercises, you will write code to calculate the average of the numbers entered by a user. An average is simply the sum of a group of numbers divided by how many numbers there are. For example, the average of 5 and 3 is calculated as $(5 + 3) / 2$, while the average of 1, 2, and 4 is $(1 + 2 + 4) / 3$.When programming this, there are two important rules to keep in mind. First, you cannot divide by zero, meaning you can't calculate an average if zero numbers were entered because doing so will cause an error. Second, because dividing two whole numbers in code cuts off any decimals, you need to multiply either your sum or your total count by 1.0 before dividing (for example, 1.0 * sum / count) to ensure you get an accurate decimal result.
+
+* Automatic Code Indentation
+>Code in Java is indented either by four spaces or a single tab for each block. Use either spaces or tabs for indentation, not both. The indentation might break in some cases if you use both at the same time. NetBeans will help you with this if you hit the "alt + shift + f" (macOS "control + shift + f") key combination.
+
 

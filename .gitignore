@@ -28,3 +28,12 @@ replay_pid*
 **/*.lst
 **/course_config.toml
 **/.tmcproject.json2
+
+# global
+*.class
+bin/
+build/
+target/
+.settings/
+.classpath
+.project
