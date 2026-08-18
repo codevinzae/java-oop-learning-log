@@ -27,4 +27,4 @@ public class GiftTax {
             System.out.println("Tax: " + tax);
         }
     }
-}
+}   
