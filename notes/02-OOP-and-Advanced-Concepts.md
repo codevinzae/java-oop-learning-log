@@ -34,3 +34,61 @@ while (true) {
 System.out.println("Ready!");
 ```
 
+>You can also return to the beginning from other places besides the end with the command continue. When the computer executes the command continue, the execution of the program moves to the beginning of the loop.
+```java
+Scanner scanner = new Scanner(System.in);
+
+while (true) {
+    System.out.println("Input positive numbers.");
+    int number = Integer.valueOf(scanner.nextLine());
+
+    if (number == 0) {
+        break;
+    }
+
+    if (number < 0) {
+        System.out.println("Unfit number! Try again.");
+        continue;
+    }
+
+    System.out.println("Your input was " + number);
+```
+
+### Java Math: Powers & Square Roots
+
+> **No import required!** `Math` is built into Java (`java.lang`).
+> **`^` is NOT power in Java** (it is bitwise XOR).
+
+
+## 1. Raise to Power (`Math.pow`)
+
+Calculates $base^{exponent}$. Always returns a `double`.
+
+```java
+// Math.pow(base, exponent)
+double result = Math.pow(2, 3); // 2^3 = 8.0
+
+// If you need an int, explicitly cast it:
+int intResult = (int) Math.pow(5, 2); // 5^2 = 25
+
+## 1. Increment & Decrement Shorthand
+
+Quick syntax for updating numeric variables:
+
+| Shorthand | Equivalent Code | Description |
+| :--- | :--- | :--- |
+| `i++` | `i = i + 1` | Increase by 1 |
+| `i--` | `i = i - 1` | Decrease by 1 |
+| `i += 5` | `i = i + 5` | Add custom value (5) |
+| `i -= 2` | `i = i - 2` | Subtract custom value (2) |
+
+---
+
+## 2. For Loop Anatomy
+
+Use a `for` loop when you know how many times code should repeat:
+
+```java
+for (start_variable; condition; step_change) {
+    // Code to repeat
+}
