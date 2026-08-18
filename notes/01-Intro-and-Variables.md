@@ -72,6 +72,53 @@ boolean isActive = Boolean.valueOf(boolText);
 >In the next exercises, you will write code to calculate the average of the numbers entered by a user. An average is simply the sum of a group of numbers divided by how many numbers there are. For example, the average of 5 and 3 is calculated as $(5 + 3) / 2$, while the average of 1, 2, and 4 is $(1 + 2 + 4) / 3$.When programming this, there are two important rules to keep in mind. First, you cannot divide by zero, meaning you can't calculate an average if zero numbers were entered because doing so will cause an error. Second, because dividing two whole numbers in code cuts off any decimals, you need to multiply either your sum or your total count by 1.0 before dividing (for example, 1.0 * sum / count) to ensure you get an accurate decimal result.
 
 * Automatic Code Indentation
->Code in Java is indented either by four spaces or a single tab for each block. Use either spaces or tabs for indentation, not both. The indentation might break in some cases if you use both at the same time. NetBeans will help you with this if you hit the "alt + shift + f" (macOS "control + shift + f") key combination.
+>Code in Java is indented either by four spaces or a single tab for each block. Use either spaces or tabs for indentation, not both. The indentation might break in some cases if you use both at the same time. NetBeans will help you with this if you hit the "shift + alt + f" (macOS "control + shift + f") key combination.
+
+## CONDITIONAL STATEMENTS
+>Conditional statements allow a program to make decisions and execute specific blocks of code based on whether a given condition evaluates to true or false. In Java, the if-else structure evaluates boolean expressions to direct control flow, ensuring that only the relevant code block runs during execution.
+```java
+int number = 7;
+
+if (number > 0) {
+    System.out.println("The number is positive.");
+} else if (number < 0) {
+    System.out.println("The number is negative.");
+} else {
+    System.out.println("The number is zero.");
+}
+```
+* Remainder
+>The modulo operator is a slightly less-used operator, which is, however, very handy when we want to check the divisibility of a number, for example. The symbol for the modulo operator is %.
+
+## CONDITIONAL STATEMENTS/COMPARING STRINGS
+>Even though we can compare integers, floating point numbers, and boolean values using two equals signs (variable1 == variable2), we cannot compare the equality of strings using two equals signs.
+>When comparing strings we use the equals-command, which is related to string variables. The command works in the following way:
+```java
+Scanner reader = new Scanner(System.in);
+
+System.out.println("Enter a string");
+String input = reader.nextLine();
+
+if (input.equals("a string")) {
+    System.out.println("Great! You read the instructions correctly.");
+} else {
+    System.out.println("Missed the mark!");
+}
+```
+```java
+if (first.equals(second)) {
+    System.out.println("The strings were the same!");
+} else {
+    System.out.println("The strings were different!");
+}
+
+if (first.equals("two strings")) {
+    System.out.println("Clever!");
+}
+
+if (second.equals("two strings")) {
+    System.out.println("Sneaky!");
+}
+```
 
 
