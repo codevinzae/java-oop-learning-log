@@ -5,6 +5,17 @@ public class SumOfASequence {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+         
+        int rep = 0;
+         int total = 0;
+         System.out.println("Last number? ");
+         int n = Integer.valueOf(scanner.nextLine());
 
+
+         for (int i = 1; i < n; i++){
+            total = i + rep;
+            rep++;
+         }
+         System.out.println("The sum is " + total);
     }
 }
