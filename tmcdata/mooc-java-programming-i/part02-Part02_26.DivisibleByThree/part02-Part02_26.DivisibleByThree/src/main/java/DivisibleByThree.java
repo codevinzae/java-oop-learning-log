@@ -4,14 +4,7 @@ public class DivisibleByThree {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
-        System.out.print("Beginning: ");
-        int beginning = Integer.valueOf(scanner.nextLine());
-
-        System.out.print("End: ");
-        int end = Integer.valueOf(scanner.nextLine());
-
-        divisibleByThreeInRange(beginning, end);
+        divisibleByThreeInRange(3, 6);
     }
 
     public static void divisibleByThreeInRange(int beginning, int end) {
