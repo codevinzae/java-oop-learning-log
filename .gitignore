@@ -39,3 +39,30 @@ target/
 .project
 
 ##renamed.new.location
+# Compiled Java class files and build artifacts
+*.class
+target/
+bin/
+build/
+*.jar
+*.war
+
+# TMC extension & test files
+.tmcproject.json
+.tmc/
+.checkstyle.xml
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.nbproject/
+
+# OS metadata
+.DS_Store
+Thumbs.db
