@@ -1,4 +1,5 @@
-# Java MOOC Part 1 Notes
+# Java Programming I — Part 01 Notes
+*University of Helsinki
 
 ## PRINTING
 ```java

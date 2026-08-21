@@ -1,139 +1,143 @@
-# Java MOOC Part 2 Notes
+# Java Programming I — Part 02 Notes
+*University of Helsinki MOOC*
 
-## LOOPS AND INFINITE LOOPS
+## 1. Recurring Problems and Patterns
+- Repetitive code (copy-pasted blocks) is a signal you need a **loop**.
 
+## 2. Repeating Functionality
+
+**Infinite loop + break**
 ```java
 while (true) {
-    System.out.println("Input positive numbers.");
+    // repeats forever until break
+}
+```
+- `break` — exits the loop immediately
+- `continue` — skips the rest of this iteration, jumps back to the loop's condition
+- Loop condition is checked (1) when the loop starts, and (2) every time it reaches the closing `}`
+
+**Reading input until a stop value**
+```java
+Scanner scanner = new Scanner(System.in);
+while (true) {
+    System.out.println("Give a number (0 stops): ");
     int number = Integer.valueOf(scanner.nextLine());
-
     if (number == 0) {
-        break; // Stops the loop completely
+        break;
     }
-
-    if (number < 0) {
-        System.out.println("Unfit number! Try again.");
-        continue; // Skips to the next round immediately
-    }
-
-    System.out.println("Your input was " + number);
+    System.out.println("You gave: " + number);
 }
 ```
 
----
-
-### Java Math: Powers & Square Roots
-
-> **No import required!** `Math` is built into Java (`java.lang`).
-> **`^` is NOT power in Java** (it is bitwise XOR).
-
-## 1. Raise to Power (`Math.pow`)
-
-Calculates $base^{exponent}$. Always returns a `double`.
-
+** Accumulator pattern — declare BEFORE the loop**
+If a variable needs to survive after the loop ends (a running total, a count), it must be declared *outside/before* the loop — not inside it.
 ```java
-// Math.pow(base, exponent)
-double result = Math.pow(2, 3); // 2^3 = 8.0
+int sum = 0;          // declared before → survives after loop
+int numbersRead = 0;
 
-// If you need an int, explicitly cast it:
-int intResult = (int) Math.pow(5, 2); // 5^2 = 25
-```
-
-## 2. Square Root (`Math.sqrt`)
-
-Calculates $\sqrt{x}$. Always returns a `double`.
-
-```java
-double root = Math.sqrt(16); // 4.0
-```
-
----
-
-## 3. Increment & Decrement Shorthand
-
-Quick syntax for updating numeric variables:
-
-| Shorthand | Equivalent Code | Description |
-| :--- | :--- | :--- |
-| `i++` | `i = i + 1` | Increase by 1 |
-| `i--` | `i = i - 1` | Decrease by 1 |
-| `i += 5` | `i = i + 5` | Add custom value (5) |
-| `i -= 2` | `i = i - 2` | Subtract custom value (2) |
-| `i *= 3` | `i = i * 3` | Multiply by custom value (3) |
-
----
-
-## 4. For Loop Anatomy
-
-Use a `for` loop when you know how many times code should repeat:
-
-```java
-for (start_variable; condition; step_change) {
-    // Code to repeat
+while (true) {
+    System.out.println("Give a number (0 stops): ");
+    int number = Integer.valueOf(scanner.nextLine());
+    if (number == 0) {
+        break;
+    }
+    sum = sum + number;
+    numbersRead++;
 }
+System.out.println("Sum: " + sum + ", count: " + numbersRead);
+```
 
-// Example: Count up 1 to 5
+**Common loop patterns you'll reuse a lot:**
+- Counting how many numbers were entered
+- Counting only positives / only negatives
+- Summing all numbers entered
+- Computing an average ( watch out for divide-by-zero if nothing was entered!)
+```java
+if (numbersRead > 0) {
+    double average = (double) sum / numbersRead; // cast to avoid integer division
+}
+```
+
+## 3. More Loops
+
+**for loop**
+```java
 for (int i = 1; i <= 5; i++) {
     System.out.println(i);
 }
+```
+- Same behavior as `while`, just packaged as: `for (init; condition; update) { ... }`
+- Runs `init` once, then checks `condition` before every iteration, runs `update` after every iteration
 
-// Example: Count down 5 to 1
-for (int i = 5; i >= 1; i--) {
-    System.out.println(i);
+**Looping from one number to another (parameters as loop bounds)**
+```java
+public static void printRange(int start, int end) {
+    for (int i = start; i <= end; i++) {
+        System.out.println(i);
+    }
 }
 ```
 
----
-
-## 5. Custom Methods (No Return Value)
-
-Break big code into smaller commands using `void`:
-
+**Sum of a sequence (accumulator + for loop combo)**
 ```java
-// Definition
-public static void printPhrase() {
-    System.out.println("In a hole in the ground there lived a method");
+int sum = 0;
+for (int i = 1; i <= 10; i++) {
+    sum = sum + i;
 }
-
-// Call inside main
-printPhrase();
 ```
 
----
-
-## 6. Methods with Parameters & Returns
-
-> **`void`** = Does an action, gives nothing back.
-> **Type (e.g. `int`, `double`)** = Must use `return` to hand back a value!
-
-| Method Syntax | How it works |
-| :--- | :--- |
-| `public static void print(int times)` | Takes `int` input, returns nothing |
-| `public static int sum(int a, int b)` | Takes two `int` inputs, returns `int` |
-| `public static double div(int a, int b)` | Takes two `int` inputs, returns `double` |
-
+**Factorial (multiplication accumulator — starts at 1, not 0!)**
 ```java
-// Method definition returning a value
-public static int add(int number1, int number2) {
-    return number1 + number2;
+int factorial = 1;
+for (int i = 1; i <= 5; i++) {
+    factorial = factorial * i;
 }
-
-// Calling and storing the returned value
-int answer = add(4, 6); // answer = 10
 ```
 
----
+## 4. Methods
 
-## 7. Casting for Division (Avoiding Int Division Trap)
-
-Dividing two integers drops the decimals. Cast one value to `double`:
-
+**Basic structure**
 ```java
-int sum = 7;
-int count = 2;
+public static returnType methodName(parameters) {
+    // body
+}
+```
+- `void` = method does something but returns nothing
+- Non-void = method must `return` a value of that type
 
-// BAD: Gives 3.0 because integer division happens first!
-double wrong = (double) (sum / count); 
+**Method that returns a value (used directly in expressions)**
+```java
+public static int square(int number) {
+    return number * number;
+}
 
-// GOOD: Gives 3.5 because sum is converted to double BEFORE dividing!
-double correct = (double) sum / count; 
+public static void main(String[] args) {
+    int result = square(4);           // 16
+    System.out.println(square(5));    // can call inline too
+}
+```
+
+**Methods with multiple parameters**
+```java
+public static double average(int a, int b) {
+    return (a + b) / 2.0;
+}
+```
+
+**Methods calling other methods**
+```java
+public static int squareRootOfSum(int a, int b) {
+    return (int) Math.sqrt(a + b);
+}
+```
+
+**Key rules:**
+- Parameters = placeholders in the method definition; arguments = actual values passed when calling
+- Variables declared inside a method only exist inside that method (scope)
+- Splitting logic into methods = cleaner, reusable, easier to test individually
+
+## 5. End Questionnaire
+- Review/self-check of everything above — no new material.
+
+---
+**Core takeaway:** loops handle repetition (with the accumulator pattern for tracking totals/counts), methods handle organization and reusable calculations. Almost every Part 02 exercise is some combination of the two.
