@@ -11,8 +11,8 @@ Personal learning journal documenting my progress through the **University of He
 | Part | Topic                                   | Status | Notes |
 |------|------------------------------------------|--------|-------|
 | 1    | Intro to programming, variables, tools   | ✅    Done     | |
-| 2    | Loops & repetition                       | 🟨 In Progress | |
-| 3    | Lists, arrays, strings                   | ⬜ Not started | |
+| 2    | Loops & repetition                       | ✅    Done     | |
+| 3    | Lists, arrays, strings                   | 🟨 In Progress | |
 | 4    | **Objects & classes (intro to OOP)**     | ⬜ Not started | |
 | 5    | **Object-oriented programming continues**| ⬜ Not started | |
 | 6    | **References, object comparison**        | ⬜ Not started | |
@@ -111,7 +111,6 @@ A running glossary — add to this the moment something confuses you twice.
 
 - [Java Programming MOOC — official site](https://java-programming.mooc.fi/)
 - [My own Java OOP Cheat Sheet](#) — link your Java_Cheat_Sheet.docx here once uploaded to the repo
-- School OOP syllabus/slides — link here
 
 ---
 
