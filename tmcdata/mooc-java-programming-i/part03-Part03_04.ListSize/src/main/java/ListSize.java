@@ -13,9 +13,10 @@ public class ListSize {
             if (input.equals("")) {
                 break;
             }
-
             list.add(input);
         }
+        int values = list.size();
+            System.out.println("In tota: " + values);
 
     }
 }
