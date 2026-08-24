@@ -10,12 +10,14 @@ public class FirstAndLast {
         ArrayList<String> list = new ArrayList<>();
         while (true) {
             String input = scanner.nextLine();
-            if (input.equals("")) {
+            if (input.isEmpty()) {
                 break;
             }
 
             list.add(input);
         }
-
+        System.out.println(list.get(0));
+        System.out.println(list.get(list.size() - 1));
+        scanner.close();
     }
 }
