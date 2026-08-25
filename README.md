@@ -79,10 +79,10 @@ Mapping each core OOP concept to a small project idea, so I'm applying — not j
 Short, honest notes — what clicked, what didn't, what to revisit.
 
 ### Week 1 — [date]
-- **Covered:**
-- **Understood well:**
-- **Still confusing:**
-- **Next step:**
+- **Covered:** Strings, Arrays
+- **Understood well:** -
+- **Still confusing:** -
+- **Next step:** Intro to OOP
 
 ### Week 2 — [date]
 - **Covered:**
