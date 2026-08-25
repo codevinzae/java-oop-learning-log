@@ -53,7 +53,7 @@ for (int number : numbers) {
 }
 ```
 
-**⚠️ Common gotcha — removing while looping**
+** Common gotcha — removing while looping**
 Removing items during a normal loop can skip elements or crash. Loop backwards, or use an iterator, if you need to remove while looping.
 
 **Reading input into a list until a stop condition (VERY common exercise pattern)**
@@ -115,7 +115,7 @@ System.out.println(numbers[0]);  // 10
 System.out.println(numbers.length); // 5 (no parentheses! not a method)
 ```
 
-**⚠️ Array vs. ArrayList — key differences**
+** Array vs. ArrayList — key differences**
 | | Array | ArrayList |
 |---|---|---|
 | Size | Fixed at creation | Grows/shrinks dynamically |
@@ -180,7 +180,7 @@ text.equalsIgnoreCase("HELLO, WORLD!"); // true
 text.trim();                // removes leading/trailing whitespace
 ```
 
-**⚠️ Never compare strings with `==`** — always use `.equals()`. `==` checks object identity, not content.
+** Never compare strings with `==`** — always use `.equals()`. `==` checks object identity, not content.
 ```java
 String a = "hi";
 String b = "hi";
