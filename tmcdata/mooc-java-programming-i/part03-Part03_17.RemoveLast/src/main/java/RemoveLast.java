@@ -8,11 +8,16 @@ public class RemoveLast {
         strings.add("Second");
         strings.add("Third");
 
-        System.out.println(removeLast(strings));  
+        removeLast(strings);
+
+        System.out.println(strings);
     }
-    public static void removeLast(ArrayList<String> strings){
-        removeLast(strings);
-        removeLast(strings);
-        System.out.println(strings); 
+
+    public static void removeLast(ArrayList<String> strings) {
+        if (strings.isEmpty()) {
+            return;
+        }
+
+        strings.remove(strings.size() - 1);
     }
 }
