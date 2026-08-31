@@ -79,10 +79,10 @@ Mapping each core OOP concept to a small project idea, so I'm applying — not j
 Short, honest notes — what clicked, what didn't, what to revisit.
 
 ### Week 1 — [date]
-- **Covered:** Strings, Arrays
-- **Understood well:** -
-- **Still confusing:** -
-- **Next step:** Intro to OOP
+- **Covered:** Part 01, Part 02, Part 03 (halfway through)
+- **Understood well:** Part 01 & Part 02 basics — variables, loops, methods
+- **Still confusing:** Lists and Arrays — specifically the loops and methods used with them
+- **Next step:** Continue Part 03, currently on Exercise 20
 
 ### Week 2 — [date]
 - **Covered:**
