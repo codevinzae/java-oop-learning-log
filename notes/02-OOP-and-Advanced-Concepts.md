@@ -14,7 +14,7 @@ while (true) {
 ```
 - `break` — exits the loop immediately
 - `continue` — skips the rest of this iteration, jumps back to the loop's condition
-- Loop condition is checked (1) when the loop starts, and (2) every time it reaches the closing `}`
+- Loop condition is checked (1) when the loop starts, and (2) every time it  reaches the closing `}`
 
 **Reading input until a stop value**
 ```java
