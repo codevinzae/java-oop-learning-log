@@ -10,7 +10,7 @@ public class Agent {
         this.lastName = initLastName;
     }
     
-    public string toString(){
+    public String toString(){
         return ("My name is " + this.lastName + ", " + this.firstName + " " + this.lastName);
     }
 }
