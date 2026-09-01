@@ -10,7 +10,9 @@ public class Agent {
         this.lastName = initLastName;
     }
     
+    @Override
     public String toString(){
         return ("My name is " + this.lastName + ", " + this.firstName + " " + this.lastName);
     }
 }
+
