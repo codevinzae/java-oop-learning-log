@@ -100,8 +100,8 @@ A running glossary — add to this the moment something confuses you twice.
 
 | Term | My own explanation |
 |------|----------------------|
-| `` | |
-| `` | |
+| `toString()` |A method that returns a text representation of an object instead of printing directly to the console. |
+| `@Override` | An annotation that tells the compiler a method is deliberately replacing a method from a parent class.|
 |  | |
 |  | |
 
