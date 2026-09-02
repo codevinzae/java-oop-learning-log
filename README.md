@@ -90,8 +90,6 @@ Short, honest notes — what clicked, what didn't, what to revisit.
 - **Still confusing:** Arrays (fixed sizes, index bounds, array loops) and OOP internals (constructors, encapsulation, setters/getters, parameter passing)
 - **Next step:** Complete Part 04, focus on strengthening constructors and encapsulation
 
-> Tip: fill this in at the END of each study session, not before — 5 honest minutes here saves hours of re-learning later.
-
 ---
 
 ## Key Terms I Keep Forgetting
