@@ -78,17 +78,17 @@ Mapping each core OOP concept to a small project idea, so I'm applying — not j
 
 Short, honest notes — what clicked, what didn't, what to revisit.
 
-### Week 1 — [date]
+### Week 1
 - **Covered:** Part 01, Part 02, Part 03 (halfway through)
 - **Understood well:** Part 01 & Part 02 basics — variables, loops, methods
 - **Still confusing:** Lists and Arrays — specifically the loops and methods used with them
 - **Next step:** Continue Part 03, currently on Exercise 20
 
-### Week 2 — [date]
-- **Covered:**
-- **Understood well:**
-- **Still confusing:**
-- **Next step:**
+### Week 2 – [date]
+- **Covered:** Finished Part 03, Part 04 (halfway through)
+- **Understood well:** Creating classes, instantiating objects in main (`Statistics stats = new Statistics()`), and calling instance methods (`void`, `int`, `String`)
+- **Still confusing:** Arrays (fixed sizes, index bounds, array loops) and OOP internals (constructors, encapsulation, setters/getters, parameter passing)
+- **Next step:** Complete Part 04, focus on strengthening constructors and encapsulation
 
 > Tip: fill this in at the END of each study session, not before — 5 honest minutes here saves hours of re-learning later.
 
