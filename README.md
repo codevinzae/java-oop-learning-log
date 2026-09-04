@@ -100,7 +100,7 @@ A running glossary — add to this the moment something confuses you twice.
 |------|----------------------|
 | `toString()` |A method that returns a text representation of an object instead of printing directly to the console. |
 | `@Override` | An annotation that tells the compiler a method is deliberately replacing a method from a parent class.|
-|  | |
+|  `Math.min`|A built-in Java utility method that compares two numbers and returns whichever value is smaller. |
 |  | |
 
 ---
