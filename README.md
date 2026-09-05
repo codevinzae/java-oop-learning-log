@@ -101,7 +101,10 @@ A running glossary — add to this the moment something confuses you twice.
 | `toString()` |A method that returns a text representation of an object instead of printing directly to the console. |
 | `@Override` | An annotation that tells the compiler a method is deliberately replacing a method from a parent class.|
 |  `Math.min`|A built-in Java utility method that compares two numbers and returns whichever value is smaller. |
-|  | |
+|  `ArrayList<Type>`| A resizable array class in Java used to store a dynamically growing collection of objects (reference types).|
+|  `Enhanced for loop`| A simplified loop syntax (for (Type item : list)) used to iterate through every object in a collection sequentially without using index numbers.|
+|  `Object Iteration`| Passing custom class objects (like Book) into an ArrayList, allowing the loop to access individual getter methods (book.getTitle()) or trigger toString() automatically when printed.|
+|  ``| |
 
 ---
 
