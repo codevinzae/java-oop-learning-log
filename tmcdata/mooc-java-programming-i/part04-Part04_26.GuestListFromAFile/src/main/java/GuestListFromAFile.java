@@ -36,8 +36,7 @@ public class GuestListFromAFile {
                 System.out.println("The name is not on the list.");
             }
         }
-
-        scanner.close();
+        scanner.nextLine();
         System.out.println("Thank you!");
     }
 }

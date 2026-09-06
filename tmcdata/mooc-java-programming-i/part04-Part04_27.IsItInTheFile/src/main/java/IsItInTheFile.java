@@ -1,11 +1,11 @@
-
+import java.nio.file.Paths;
 import java.util.Scanner;
 
 public class IsItInTheFile {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
+
         System.out.println("Name of the file:");
         String file = scanner.nextLine();
 
@@ -13,25 +13,24 @@ public class IsItInTheFile {
         String searchedFor = scanner.nextLine();
 
         boolean found = false;
-        try (Scanner fileScanner = new scanner(Paths.get(file))){
-            while(fileScanner.hasNextLine()){
-            String line = scanner.nextLine();
-            
-            if(line.equals(searchedFor)){
-                found = true;
-                break;
+
+        try (Scanner fileScanner = new Scanner(Paths.get(file))) {
+            while (fileScanner.hasNextLine()) {
+                String line = fileScanner.nextLine();
+                if (line.equals(searchedFor)) {
+                    found = true;
+                    break;
+                }
             }
 
-            if(found){
-                System.out.println("Found!")
-            }else{
-                System.out.println
+            if (found) {
+                System.out.println("Found!");
+            } else {
+                System.out.println("Not found!");
             }
 
-            }
-        }catch (Exceptions e){
-            System.out.println("Error: " + e.getMessage());
+        } catch (Exception e) {
+            System.out.println("Reading the file " + file + " failed.");
         }
-
     }
 }
