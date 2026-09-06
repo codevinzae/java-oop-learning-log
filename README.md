@@ -104,6 +104,9 @@ A running glossary — add to this the moment something confuses you twice.
 |  `ArrayList<Type>`| A resizable array class in Java used to store a dynamically growing collection of objects (reference types).|
 |  `Enhanced for loop`| A simplified loop syntax (for (Type item : list)) used to iterate through every object in a collection sequentially without using index numbers.|
 |  `Object Iteration`| Passing custom class objects (like Book) into an ArrayList, allowing the loop to access individual getter methods (book.getTitle()) or trigger toString() automatically when printed.|
+|  `Math.pow(base, exponent)`| A built-in Math class method used to calculate powers, accepting two numbers and returning the result as a double.|
+|  ``| |
+|  ``| |
 |  ``| |
 
 ---
