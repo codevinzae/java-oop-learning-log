@@ -121,7 +121,6 @@ A running glossary — add to this the moment something confuses you twice.
 ## Resources
 
 - [Java Programming MOOC — official site](https://java-programming.mooc.fi/)
-- [My own Java OOP Cheat Sheet](#) — link your Java_Cheat_Sheet.docx here once uploaded to the repo
 
 ---
 
