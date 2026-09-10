@@ -84,11 +84,17 @@ Short, honest notes — what clicked, what didn't, what to revisit.
 - **Still confusing:** Lists and Arrays — specifically the loops and methods used with them
 - **Next step:** Continue Part 03, currently on Exercise 20
 
-### Week 2 – [date]
+### Week 2
 - **Covered:** Finished Part 03, Part 04 (halfway through)
 - **Understood well:** Creating classes, instantiating objects in main (`Statistics stats = new Statistics()`), and calling instance methods (`void`, `int`, `String`)
 - **Still confusing:** Arrays (fixed sizes, index bounds, array loops) and OOP internals (constructors, encapsulation, setters/getters, parameter passing)
 - **Next step:** Complete Part 04, focus on strengthening constructors and encapsulation
+
+### Week 3
+- **Covered:** Finished Part 04
+- **Understood well:** File paths syntax (`Paths.get()`), basic file reading with `Scanner`, and core OOP foundations
+- **Still confusing:** Integrating custom classes with file parsing (using `.split(",")` to instantiate objects and store them in lists)
+- **Next step:** Review converting CSV rows into custom objects, then proceed to Part 05
 
 ---
 
