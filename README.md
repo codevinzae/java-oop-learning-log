@@ -13,8 +13,8 @@ Personal learning journal documenting my progress through the **University of He
 | 1    | Intro to programming, variables, tools   | ✅    Done     | |
 | 2    | Loops & repetition                       | ✅    Done     | |
 | 3    | Lists, arrays, strings                   | ✅    Done     | |
-| 4    | **Objects & classes (intro to OOP)**     | 🟨 In Progress | |
-| 5    | **Object-oriented programming continues**| ⬜ Not started | |
+| 4    | **Objects & classes (intro to OOP)**     | ✅    Done     | |
+| 5    | **Object-oriented programming continues**| 🟨 In Progress | |
 | 6    | **References, object comparison**        | ⬜ Not started | |
 | 7    | **Inheritance**                          | ⬜ Not started | |
 | 8    | **Interfaces**                           | ⬜ Not started | |
