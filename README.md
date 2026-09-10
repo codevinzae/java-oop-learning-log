@@ -120,7 +120,8 @@ A running glossary — add to this the moment something confuses you twice.
 
 ## Resources
 
-- [Java Programming MOOC — official site](https://java-programming.mooc.fi/)
+* [TestMyCode (TMC) Dashboard](https://tmc.mooc.fi/)
+* [Helsinki Java Programming Course](https://java-programming.mooc.fi/)
 
 ---
 
