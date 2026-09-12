@@ -13,8 +13,8 @@ Personal learning journal documenting my progress through the **University of He
 | 1    | Intro to programming, variables, tools   | ✅    Done     | |
 | 2    | Loops & repetition                       | ✅    Done     | |
 | 3    | Lists, arrays, strings                   | ✅    Done     | |
-| 4    | **Objects & classes (intro to OOP)**     | 🟨 In Progress | |
-| 5    | **Object-oriented programming continues**| ⬜ Not started | |
+| 4    | **Objects & classes (intro to OOP)**     | ✅    Done     | |
+| 5    | **Object-oriented programming continues**| 🟨 In Progress | |
 | 6    | **References, object comparison**        | ⬜ Not started | |
 | 7    | **Inheritance**                          | ⬜ Not started | |
 | 8    | **Interfaces**                           | ⬜ Not started | |
@@ -84,11 +84,17 @@ Short, honest notes — what clicked, what didn't, what to revisit.
 - **Still confusing:** Lists and Arrays — specifically the loops and methods used with them
 - **Next step:** Continue Part 03, currently on Exercise 20
 
-### Week 2 – [date]
+### Week 2
 - **Covered:** Finished Part 03, Part 04 (halfway through)
 - **Understood well:** Creating classes, instantiating objects in main (`Statistics stats = new Statistics()`), and calling instance methods (`void`, `int`, `String`)
 - **Still confusing:** Arrays (fixed sizes, index bounds, array loops) and OOP internals (constructors, encapsulation, setters/getters, parameter passing)
 - **Next step:** Complete Part 04, focus on strengthening constructors and encapsulation
+
+### Week 3
+- **Covered:** Finished Part 04
+- **Understood well:** File paths syntax (`Paths.get()`), basic file reading with `Scanner`, and core OOP foundations
+- **Still confusing:** Integrating custom classes with file parsing (using `.split(",")` to instantiate objects and store them in lists)
+- **Next step:** Review converting CSV rows into custom objects, then proceed to Part 05
 
 ---
 
@@ -105,16 +111,17 @@ A running glossary — add to this the moment something confuses you twice.
 |  `Enhanced for loop`| A simplified loop syntax (for (Type item : list)) used to iterate through every object in a collection sequentially without using index numbers.|
 |  `Object Iteration`| Passing custom class objects (like Book) into an ArrayList, allowing the loop to access individual getter methods (book.getTitle()) or trigger toString() automatically when printed.|
 |  `Math.pow(base, exponent)`| A built-in Math class method used to calculate powers, accepting two numbers and returning the result as a double.|
-|  ``| |
-|  ``| |
+| `.split("delimiter")` | A String method that breaks a single text string into an array of smaller substrings based on a separator (e.g., `,`). |
+| `try-catch` | A safety block used to handle potential errors (exceptions)—like missing files—without crashing the whole program. |
+| `public String / int / double` | A method signature header indicating the method is accessible anywhere and must return a specific data type (`int`, `String`, or `double`). |
 |  ``| |
 
 ---
 
 ## Resources
 
-- [Java Programming MOOC — official site](https://java-programming.mooc.fi/)
-- [My own Java OOP Cheat Sheet](#) — link your Java_Cheat_Sheet.docx here once uploaded to the repo
+* [TestMyCode (TMC) Dashboard](https://tmc.mooc.fi/)
+* [Helsinki Java Programming Course](https://java-programming.mooc.fi/)
 
 ---
 
