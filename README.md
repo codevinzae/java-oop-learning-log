@@ -114,7 +114,7 @@ A running glossary — add to this the moment something confuses you twice.
 | `.split("delimiter")` | A String method that breaks a single text string into an array of smaller substrings based on a separator (e.g., `,`). |
 | `try-catch` | A safety block used to handle potential errors (exceptions)—like missing files—without crashing the whole program. |
 | `public String / int / double` | A method signature header indicating the method is accessible anywhere and must return a specific data type (`int`, `String`, or `double`). |
-|  ``| |
+| `Class vs. Object` | A Class is the blueprint/template (e.g., `ClockHand`), while an Object is the actual working instance built using `new` (e.g., `hundredthsOfASecond` holding its own state). |
 
 ---
 
