@@ -115,6 +115,7 @@ A running glossary — add to this the moment something confuses you twice.
 | `try-catch` | A safety block used to handle potential errors (exceptions)—like missing files—without crashing the whole program. |
 | `public String / int / double` | A method signature header indicating the method is accessible anywhere and must return a specific data type (`int`, `String`, or `double`). |
 | `Class vs. Object` | A Class is the blueprint/template (e.g., `ClockHand`), while an Object is the actual working instance built using `new` (e.g., `hundredthsOfASecond` holding its own state). |
+| `return this.` | Returns a reference to the current object instance itself, often used in method chaining or inside `toString()` to explicitly access the instance's own fields (e.g., `return this.name;`). |
 
 ---
 
