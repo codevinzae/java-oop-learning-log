@@ -11,7 +11,6 @@ public class Product {
         this.weight = weight;
     }
 
-    
     public String getName() {
         return name;
     }
@@ -22,6 +21,18 @@ public class Product {
 
     public String getLocation() {
         return location;
+    }
+
+    public Product(String name){
+        this(name, "shelf", 1);
+    }
+
+    public Product(String name, String location){
+        this(name, location, 1);
+    }
+
+    public Product(String name, int weight){
+        this(name, "shelf", weight);
     }
 
     @Override
