@@ -1,4 +1,3 @@
-
 public class Pet {
 
     private String name;
@@ -10,11 +9,10 @@ public class Pet {
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public String getBreed() {
-        return breed;
+        return this.breed;
     }
-
 }
