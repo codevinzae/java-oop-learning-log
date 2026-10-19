@@ -1,37 +1,35 @@
 public class Counter {
     private int value;
 
-    public Counter(int startValue){
+    public Counter(int startValue) {
         this.value = startValue;
     }
 
-    public int value(){
-        return value;
+    public Counter() {
+        this(0);
     }
 
-    public void increase(){
+    public int value() {
+        return this.value;
+    }
+
+    public void increase() {
         this.value = this.value + 1;
     }
 
-    public void decrease(){
+    public void decrease() {
         this.value = this.value - 1;
     }
 
-    public void increaseee(int increasedBy){
-        if(increasedBy >= 0){
-         this.value = value + increasedBy;
+    public void increase(int increaseBy) {
+        if (increaseBy >= 0) {
+            this.value = this.value + increaseBy;
         }
-     }
+    }
 
-     public void decreaseee(int decreasedBy){
-        if(decreasedBy >= 0){
-         this.value = value - decreasedBy;
+    public void decrease(int decreaseBy) {
+        if (decreaseBy >= 0) {
+            this.value = this.value - decreaseBy;
         }
-     }
-
-     @Override
-     public String toString(){
-        return "Value: " + this.value;
-     }
+    }
 }
-
